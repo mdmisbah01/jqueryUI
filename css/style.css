@@ -1,0 +1,117 @@
+/*font-family start*/
+
+/*common css start*/
+/*body{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: ;
+}*/
+ #draggable { 
+ 	width: 150px; 
+ 	height: 150px; 
+ 	padding: 0.5em; 
+ 	background-color: #ddd}
+
+/*----------------------------Draggable-1*/
+
+ #draggable_1 { 
+ 			width: 100px; 
+ 			height: 100px; 
+ 			padding: 0.5em; 
+ 			float: left; 
+ 			margin: 10px 10px 10px 0;
+ 			background-color: red }
+  #droppable { 
+  			width: 150px;
+  			height: 150px; 
+  			padding: 0.5em; 
+  			float: left; 
+  			margin: 10px; }
+/*----------------------------resizable*/
+
+#resizable { 
+	width: 150px; 
+	height: 150px; 
+	padding: 0.5em; }
+  
+
+#resizable h3 { 
+	text-align: center; 
+	margin: 10px; }
+
+/*selectable*/
+#feedback { 
+		font-size: 1.4em; }
+  #selectable .ui-selecting { 
+  		background: #FECA40; }
+  #selectable .ui-selected { 
+  		background: #F39814; 
+  		color: #ddd; }
+  #selectable { 
+  		list-style-type: none; 
+  		margin: 0; 
+  		padding: 0; 
+  		width: 60%; }
+  #selectable li { 
+  		margin: 3px; 
+  		padding: 0.5em; 
+  		font-size: 1.1em; 
+  		height: 18px; }
+
+/*sortable*/
+  #sortable { list-style-type: none; 
+  	margin: 0; 
+    padding: 0; 
+    width: 60%; }
+  #sortable li { margin: 0 3px 3px 3px; 
+  	padding: 0.4em; 
+    padding-left: 1.5em; 
+    font-size: 1.4em; 
+    height: 18px; }
+  #sortable li span { position: absolute; 
+  	margin-left: -1.3em; }
+
+/*color animation*/
+.toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+/*effect*/
+.toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+    .ui-effects-transfer { border: 2px dotted gray; }
+
+/*toggler*/
+.toggler { width: 500px; height: 200px; position: relative; }
+  #button { padding: .5em 1em; text-decoration: none; }
+  #effect { position: relative; }
+  .newClass { width: 240px;  padding: 1em; letter-spacing: 0; margin: 0; }
+  .anotherNewClass { text-indent: 40px; letter-spacing: .2em; width: 410px; height: 100px; padding: 30px; margin: 10px; font-size: 1.1em; }
+
+/*  menu*/
+.ui-menu { width: 150px; }
+
+/*selectmenu*/
+fieldset {
+      border: 0;
+    }
+    label {
+      display: block;
+      margin: 30px 0 0 0;
+    }
+    .overflow {
+      height: 200px;
+    }
+
+/*droppable*/
+#draggable_1 { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+  #droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+/*common css end*/
+/*header start*/
+
+
+/*header end*/
